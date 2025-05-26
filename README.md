@@ -14,10 +14,10 @@ Supports:
 
 ```swift
 struct MyTest: TestCase {
-    @Test var exampleTest = {
-		    let result = try await sut.get()
-        expect(result).toBe("expected result")
-    }
+  @Test var exampleTest = {
+    let result = try await sut.get()
+    expect(result).toBe("expected result")
+  }
 }
 
 MyTest().setup()
