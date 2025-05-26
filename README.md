@@ -1,6 +1,6 @@
 # swift-mini-testing
 
-Messy exploration of a minimal testing system for Swift scripts (I used to rely heavy on those for lightweight projects with no *Xcode*, so no *xctest*)
+Messy exploration of a minimal testing system for Swift scripts (I used to rely heavyly on scripting for lightweight projects with no *Xcode*, so no *xctest*)
 
 Supports:
 - Test case definition via `@Test` property wrapper
